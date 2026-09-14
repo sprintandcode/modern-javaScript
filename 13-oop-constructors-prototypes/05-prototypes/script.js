@@ -7,4 +7,5 @@ function Rectangle(name, width, height) {
   };
 }
 
-const rect = new Rectangle('Rect', 10, 10);
+const rect = new Rectangle('Rect', 10, 10); 
+console.log(Object.getPrototypeOf(rect));
